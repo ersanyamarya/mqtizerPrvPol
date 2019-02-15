@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+    display: grid;
+    grid-template-columns: 90fr 1fr 90fr;
+    grid-template-rows: 8vh 46vh 46vh;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "left blank right"
+    "left blank right";
+    background-color: #fdffff;
+}
+.navbar{
+    grid-area: navbar;
+    background-color: #008BA3;
+      display: flex;
+    align-items: center;
+    padding: 2%;
+    color: #EFEFEF;
+    /* justify-content: center;  */
+}
+.left{
+    grid-area: left;
+    overflow: auto;
+    padding: 5%;
+    /* background: url("./assets/phone.svg");
+    background-repeat: no-repeat; */
+}
+.right{
+    grid-area: right;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
