@@ -1,0 +1,22 @@
+{
+  "name": "mqtizer",
+  "version": "1.0.0",
+  "description": "mqtizer ",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersanyamarya/mqtizerPrvPol.git"
+  },
+  "author": "Sanyam Arya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ersanyamarya/mqtizerPrvPol/issues"
+  },
+  "homepage": "https://ersanyamarya.github.io/mqtizerPrvPol",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
