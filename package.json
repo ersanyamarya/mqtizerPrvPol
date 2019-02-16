@@ -4,7 +4,7 @@
   "description": "mqtizer ",
   "main": "index.js",
   "scripts": {
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/ersanyamarya/mqtizerPrvPol/issues"
   },
   "homepage": "https://ersanyamarya.github.io/mqtizerPrvPol",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gh-pages": "^2.0.1"
   }
 }
