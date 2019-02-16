@@ -17,7 +17,16 @@ body {
      "left blank right";
     background-color: #fdffff;
 }
-
+@media only screen and (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 20% 70%;
+        grid-template-areas:
+         "navbar"
+         "left"
+         "right";
+    }
+  }
 .navbar {
     grid-area: navbar;
     background-color: #008BA3;
