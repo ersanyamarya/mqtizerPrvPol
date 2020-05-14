@@ -7,7 +7,7 @@ body {
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-columns: 40fr 1fr 100fr;
     grid-template-rows: 8vh 46vh 46vh;
@@ -29,11 +29,11 @@ body {
   }
 .navbar {
     grid-area: navbar;
-    background-color: #008BA3;
+    background-color: #1E152A;
     display: flex;
     align-items: center;
     padding: 2%;
-    color: #EFEFEF;
+    color: #fdffff;
     /* justify-content: center;  */
 }
 
